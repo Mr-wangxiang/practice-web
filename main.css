@@ -3,15 +3,15 @@ body{
     padding: 0px;
 }
 header {
-    background-color: #CC0001;
-    height: 64px;
-    line-height: 62px;
+  background-color: #CC0001;
+  height: 68px;
+  line-height: 70px;
 }
-#logo{
-    color: #fff;
-    font-size: 28px;
-    margin-left: 137px;
-    float: left;
+#logo {
+  color: #fff;
+  font-size: 32px;
+  margin-left: 166px;
+  float: left;
 }
 ul,li {
     margin:0;
@@ -20,16 +20,12 @@ ul,li {
 #menu {
   color: #fff;
   float: right;
-  margin-right: 256px;
+  margin-right: 168px;
 }
 #menu li {
-    display: inline-block;
-    padding: 0 34px;
-    font-size: 12px;
-  }
-#menu li.current{
-    background-color:#fff;
-    color:#ca0007;
+  display: inline-block;
+  padding: 0 34px;
+  font-size: 14px;
 }
 #menu li>a{
     color: #fff;
@@ -37,22 +33,33 @@ ul,li {
 }
 #menu li:hover>a {
     text-decoration: underline;
+    background-color: #FFF;
+    color: #CA0007;
+}
+#menu li:hover {
+    background-color: #FFF;
+    color: #CA0007;
 }
 #menu li.current>a {
     color: #CA0007;
 }
+#menu li.current {
+    background-color: #FFF;
+}
 #gallery {
-  height: 412px;
-  background-color: #66CEEC;
+  height: 437px;
+
   position: relative;
 }
-#gallery .pics{
-    position: absolute;
+#gallery .pics .headerimg {
+  float: left;
+  height: 433px;
+  width: 1340px;
 }
 #gallery .bar {
   position: absolute;
-  top: 342px;
-  left: 172px;
+  top: 363px;
+  left: 203px;
 }
 #gallery .bar li {
   display: inline-block;
@@ -67,10 +74,193 @@ ul,li {
   margin-top: 43px;
 }
 #middle li {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    background: #0CF;
+    border-radius: 100%;
+    margin: 3px 46px;
+}
+
+#middle li.current1 {
+    background-color: #ED403F;
+}
+#middle li.current2 {
+    background-color: #E56533;
+}
+#middle li.current3 {
+    background-color: #39A0CE;
+}
+#middle li.current4 {
+    background-color: #52D05F;
+}
+#middle li>i {
+  margin-top: 31px;
+  font-size: 59px;
+  color: #FFF;
+}
+#middle li>p{
+    font-size:20px;
+    color: #FFF;
+}
+#center {
+  height: 300px;
+  background-color: #F3F3F3;
+  position: relative;
+  margin-top: 44px;
+}
+#center .centerleft {
+  float: left;
+  margin-left: 170px;
+  margin-top: 26px;
+}
+#center .centerleft .newheader li{
   display: inline-block;
-  height: 160px;
-  width: 160px;
-  background: #0CF;
-  border-radius: 100%;
-  margin: -2px 39px;
+  font-size: 19px;
+}
+#center .centerleft .newheader li.current1{
+
+  color: #CA0007;
+}
+#center .centerleft .newfooter li{
+  display: inline-block;
+  margin-top:20px;
+}
+#center .contentcenter {
+    float: left;
+}
+#center .contentcenter li{
+    display: inline-block;
+}
+#center .contentcenter li.current1 {
+  background-color: #C70503;
+  margin-top: 30px;
+  margin-left: 342px;
+  color: #FFF;
+  font-size: 14px;
+}
+#center .contentcenter li.current2{
+    color: #FFF;
+    font-size: 14px;
+    background-color: #A5A5A5;
+}
+#center .contentright {
+  float: right;
+  margin-top: 31px;
+  margin-right: 169px;
+}
+#center .contentright li {
+  list-style: none;
+  color: #FFF;
+  width: 165px;
+  height: 54px;
+  padding: 2px 20px;
+  margin: 13px -1px;
+}
+#center .contentright ul {
+  text-align: center;
+  margin-top: -23px;
+}
+#center .contentright li.current1{
+
+  background-color: #9270CF;
+}
+#center .contentright li.current2{
+  background-color: #CF9871;
+}
+#center .contentright li.current3{
+  background-color: #6ECECC;
+}
+#center .contentright li.current4{
+  background-color: #CF7092;
+}
+#center .contentright li>p {
+  float: right;
+  font-size: 27px;
+  margin-top: 8px;
+}
+#center .contentright li>i {
+  float: left;
+  font-size: 41px;
+  margin: 9px 2px;
+}
+#butom {
+  position: relative;
+  margin-top: 95px;
+}
+#butom .butomhead ul {
+  margin-left: 138px;
+  font-size: 19px;
+}
+#butom .butomhead li.current1{
+    margin-left:30px;
+    color: #CC0001;
+}
+#butom .butomhead li{
+    display:inline-block;
+}
+#butom .butomfoot li {
+  display: inline-block;
+  width: 325px;
+  height: 162px;
+  margin: 5px 4px;
+}
+#butom .butomfoot ul {
+
+  margin-left: 164px;
+  margin-top: 23px;
+}
+#footer{
+
+    width:325px;
+    height:162px;
+}
+#foot {
+  position: relative;
+  margin-top: 42px;
+}
+#foot .footup li {
+  display: inline-block;
+  font-size: 19px;
+}
+#foot .footup li.current1{
+    color: #CA0007;
+}
+#foot .footup ul {
+  margin: 19px 178px;
+}
+#foot .footdown li {
+  display: inline-block;
+
+}
+#foot .footdown ul {
+  margin-left:157px;
+
+}
+#footerdown {
+  position: relative;
+  margin-top: 41px;
+}
+#footerdown .footerone{
+    text-align:center;
+    height:40px;
+    background: #6F6F6F;
+
+}
+#footerdown .footertwo{
+    text-align:center;
+    background: #5A5A5A;
+    height:40px;
+}
+#footerdown .footerone li {
+  display: inline-block;
+  color: #FFF;
+  font-size: 15px;
+  padding-top: 9px;
+}
+#footerdown .footertwo li {
+  display: inline-block;
+  color: #FFF;
+  font-size: 15px;
+  padding-top: 9px;
 }
